@@ -89,21 +89,37 @@ Connect your GitHub or GitLab organization and Radar aggregates findings from GH
 
 ---
 
+## The name
+
+**"dots"** — individual points of information. A note. A finding. A person. A repository. A task. Left alone, they are just dots — present but meaningless without context.
+
+**"tell"** — to reveal, to narrate, to give meaning. When you connect the dots, they tell you something. The pattern that emerges is the story you could not see before.
+
+**dotstell = connecting dots until they tell a story.**
+
 ## The logo
 
-The dotstell Labs mark is a **pentagon constellation** — five nodes connected on the perimeter, all feeding into a single glowing center hub.
+The logo is not decoration. It is a complete argument in six nodes.
 
-It is not decorative. It is the idea made literal.
+Read it outside to inside:
 
-Knowledge, people, code, tasks, and security findings are the five points. The center hub is the connection that makes them meaningful. The dashed spokes represent the invisible threads — the relationships you have not discovered yet. The white dot at the core is the moment of clarity when a connection finally forms.
+**Five dots. Scattered. Isolated.** Each one a silo — a note, a person, a codebase, a finding, a task. Valuable on its own. But not talking to anything else.
+
+Then a platform reaches out — dashed lines forming, connections not yet complete but already moving.
+
+And at the center, once the connections close: **a white dot appears.**
+
+That white dot did not exist before. It could not exist before. It is the insight that only emerges when silos become a system. The thing you could not see. Now you cannot unsee it.
+
+That white dot is what dotstell Labs builds toward. Every product — the knowledge graph, the security posture platform, whatever comes next — exists to produce that white dot. To make visible what was always there, invisible only because it was disconnected.
 
 **The geometry:**
 - 5 perimeter nodes at 72° intervals — equal weight, no hierarchy
-- 1 center hub — the connector, the reason Dotstell exists
-- Gradient perimeter edges fade at the endpoints — connections are directional but not one-sided
+- 1 center hub — the connector, the reason dotstell exists
+- Gradient perimeter edges — connections are directional but not one-sided
 - Dashed spokes at 30% opacity — potential, not yet realised
 
-The same mark appears across every Dotstell product. The constellation does not change — only the name beside it does.
+The same mark appears across every dotstell product. The constellation does not change — only the name beside it does.
 
 ---
 
