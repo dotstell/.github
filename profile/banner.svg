@@ -1,0 +1,100 @@
+<svg width="1200" height="400" viewBox="0 0 1200 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glowLeft" cx="28%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c6aff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#07070f" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c6aff" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#7c6aff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dotgrid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <circle cx="0" cy="0" r="0.6" fill="#7c6aff" opacity="0.18"/>
+      <circle cx="36" cy="0" r="0.6" fill="#7c6aff" opacity="0.18"/>
+      <circle cx="0" cy="36" r="0.6" fill="#7c6aff" opacity="0.18"/>
+      <circle cx="36" cy="36" r="0.6" fill="#7c6aff" opacity="0.18"/>
+    </pattern>
+    <filter id="blur4">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="400" rx="14" fill="#07070f"/>
+  <rect width="1200" height="400" rx="14" fill="url(#dotgrid)"/>
+  <rect width="1200" height="400" fill="url(#glowLeft)"/>
+
+  <!-- ── Constellation (center: 300, 200, radius: 120) ── -->
+  <!-- Vertices: A(300,80) B(414,163) C(371,297) D(229,297) E(186,163) -->
+
+  <!-- Outer pentagon -->
+  <line x1="300" y1="80"  x2="414" y2="163" stroke="#7c6aff" stroke-width="1.4" stroke-opacity="0.55"/>
+  <line x1="414" y1="163" x2="371" y2="297" stroke="#7c6aff" stroke-width="1.4" stroke-opacity="0.55"/>
+  <line x1="371" y1="297" x2="229" y2="297" stroke="#7c6aff" stroke-width="1.4" stroke-opacity="0.55"/>
+  <line x1="229" y1="297" x2="186" y2="163" stroke="#7c6aff" stroke-width="1.4" stroke-opacity="0.55"/>
+  <line x1="186" y1="163" x2="300" y2="80"  stroke="#7c6aff" stroke-width="1.4" stroke-opacity="0.55"/>
+
+  <!-- Spokes from center (dashed) -->
+  <line x1="300" y1="200" x2="300" y2="80"  stroke="#7c6aff" stroke-width="0.8" stroke-opacity="0.28" stroke-dasharray="3 4"/>
+  <line x1="300" y1="200" x2="414" y2="163" stroke="#7c6aff" stroke-width="0.8" stroke-opacity="0.28" stroke-dasharray="3 4"/>
+  <line x1="300" y1="200" x2="371" y2="297" stroke="#7c6aff" stroke-width="0.8" stroke-opacity="0.28" stroke-dasharray="3 4"/>
+  <line x1="300" y1="200" x2="229" y2="297" stroke="#7c6aff" stroke-width="0.8" stroke-opacity="0.28" stroke-dasharray="3 4"/>
+  <line x1="300" y1="200" x2="186" y2="163" stroke="#7c6aff" stroke-width="0.8" stroke-opacity="0.28" stroke-dasharray="3 4"/>
+
+  <!-- Extended connection lines → right (connecting to the world) -->
+  <line x1="414" y1="163" x2="560" y2="148" stroke="#7c6aff" stroke-width="0.8" stroke-opacity="0.18" stroke-dasharray="4 6"/>
+  <line x1="371" y1="297" x2="560" y2="290" stroke="#7c6aff" stroke-width="0.8" stroke-opacity="0.14" stroke-dasharray="4 6"/>
+  <line x1="300" y1="80"  x2="480" y2="62"  stroke="#7c6aff" stroke-width="0.8" stroke-opacity="0.12" stroke-dasharray="4 6"/>
+
+  <!-- Outer pulse rings on center -->
+  <circle cx="300" cy="200" r="30" fill="none" stroke="#7c6aff" stroke-width="0.6" stroke-opacity="0.22"/>
+  <circle cx="300" cy="200" r="55" fill="none" stroke="#7c6aff" stroke-width="0.5" stroke-opacity="0.12"/>
+  <circle cx="300" cy="200" r="85" fill="none" stroke="#7c6aff" stroke-width="0.4" stroke-opacity="0.07"/>
+
+  <!-- Vertex dots -->
+  <circle cx="300" cy="80"  r="5.5" fill="#7c6aff"/>
+  <circle cx="414" cy="163" r="4.5" fill="#a594ff"/>
+  <circle cx="371" cy="297" r="5.5" fill="#7c6aff"/>
+  <circle cx="229" cy="297" r="4.5" fill="#a594ff"/>
+  <circle cx="186" cy="163" r="5.5" fill="#7c6aff"/>
+
+  <!-- Center node -->
+  <circle cx="300" cy="200" r="13" fill="#7c6aff" fill-opacity="0.25" filter="url(#blur4)"/>
+  <circle cx="300" cy="200" r="8"  fill="#7c6aff"/>
+  <circle cx="300" cy="200" r="3"  fill="white" fill-opacity="0.92"/>
+
+  <!-- ── Divider ── -->
+  <line x1="580" y1="50" x2="580" y2="350" stroke="#7c6aff" stroke-width="0.5" stroke-opacity="0.14"/>
+
+  <!-- ── Right: Text ── -->
+  <!-- "Dotstell Labs" -->
+  <text x="634" y="152" font-family="system-ui,-apple-system,BlinkMacSystemFont,sans-serif"
+        font-size="58" font-weight="700" fill="white" letter-spacing="-1">Dotstell Labs</text>
+
+  <!-- Accent underline -->
+  <line x1="634" y1="166" x2="1100" y2="166" stroke="#7c6aff" stroke-width="1.5" stroke-opacity="0.35"/>
+
+  <!-- Tagline line 1 -->
+  <text x="636" y="204" font-family="system-ui,-apple-system,BlinkMacSystemFont,sans-serif"
+        font-size="19" fill="#a594ff" font-weight="400">A lab connecting the dots</text>
+  <!-- Tagline line 2 -->
+  <text x="636" y="230" font-family="system-ui,-apple-system,BlinkMacSystemFont,sans-serif"
+        font-size="19" fill="#a594ff" font-weight="400">for curious minds and ambitious builders.</text>
+
+  <!-- Product badges -->
+  <!-- Dotstell badge -->
+  <rect x="636" y="260" width="148" height="34" rx="7" fill="#7c6aff" fill-opacity="0.12" stroke="#7c6aff" stroke-width="0.8" stroke-opacity="0.45"/>
+  <circle cx="658" cy="277" r="5" fill="#7c6aff" fill-opacity="0.7"/>
+  <circle cx="658" cy="277" r="2" fill="white" fill-opacity="0.8"/>
+  <text x="672" y="282" font-family="system-ui,-apple-system,sans-serif" font-size="13" fill="#c8bfff" font-weight="500">Dotstell</text>
+
+  <!-- Radar badge -->
+  <rect x="798" y="260" width="178" height="34" rx="7" fill="#7c6aff" fill-opacity="0.12" stroke="#7c6aff" stroke-width="0.8" stroke-opacity="0.45"/>
+  <circle cx="820" cy="277" r="5" fill="#7c6aff" fill-opacity="0.7"/>
+  <circle cx="820" cy="277" r="2" fill="white" fill-opacity="0.8"/>
+  <text x="834" y="282" font-family="system-ui,-apple-system,sans-serif" font-size="13" fill="#c8bfff" font-weight="500">Dotstell Radar</text>
+
+  <!-- Footer line -->
+  <text x="636" y="336" font-family="system-ui,-apple-system,sans-serif"
+        font-size="12" fill="#44445a" letter-spacing="0.5">Built in public · AGPL-3.0 · Japan</text>
+</svg>

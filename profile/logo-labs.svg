@@ -1,0 +1,70 @@
+<svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#12102a"/>
+      <stop offset="100%" stop-color="#07070f"/>
+    </radialGradient>
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c6aff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#7c6aff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="500" rx="88" fill="url(#bg)"/>
+
+  <!-- Subtle glow behind constellation -->
+  <circle cx="250" cy="205" r="160" fill="url(#centerGlow)"/>
+
+  <!-- ── Constellation (center: 250, 205, radius: 130) ── -->
+  <!-- Vertices: A(250,75) B(374,170) C(330,315) D(170,315) E(126,170) -->
+
+  <!-- Outer pentagon -->
+  <line x1="250" y1="75"  x2="374" y2="170" stroke="#7c6aff" stroke-width="1.8" stroke-opacity="0.6"/>
+  <line x1="374" y1="170" x2="330" y2="315" stroke="#7c6aff" stroke-width="1.8" stroke-opacity="0.6"/>
+  <line x1="330" y1="315" x2="170" y2="315" stroke="#7c6aff" stroke-width="1.8" stroke-opacity="0.6"/>
+  <line x1="170" y1="315" x2="126" y2="170" stroke="#7c6aff" stroke-width="1.8" stroke-opacity="0.6"/>
+  <line x1="126" y1="170" x2="250" y2="75"  stroke="#7c6aff" stroke-width="1.8" stroke-opacity="0.6"/>
+
+  <!-- Spokes from center -->
+  <line x1="250" y1="205" x2="250" y2="75"  stroke="#7c6aff" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="4 4"/>
+  <line x1="250" y1="205" x2="374" y2="170" stroke="#7c6aff" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="4 4"/>
+  <line x1="250" y1="205" x2="330" y2="315" stroke="#7c6aff" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="4 4"/>
+  <line x1="250" y1="205" x2="170" y2="315" stroke="#7c6aff" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="4 4"/>
+  <line x1="250" y1="205" x2="126" y2="170" stroke="#7c6aff" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="4 4"/>
+
+  <!-- Outer pulse rings -->
+  <circle cx="250" cy="205" r="36"  fill="none" stroke="#7c6aff" stroke-width="0.8" stroke-opacity="0.25"/>
+  <circle cx="250" cy="205" r="65"  fill="none" stroke="#7c6aff" stroke-width="0.6" stroke-opacity="0.12"/>
+
+  <!-- Vertex dots -->
+  <circle cx="250" cy="75"  r="7"   fill="#7c6aff" filter="url(#glow)"/>
+  <circle cx="374" cy="170" r="5.5" fill="#a594ff"/>
+  <circle cx="330" cy="315" r="7"   fill="#7c6aff" filter="url(#glow)"/>
+  <circle cx="170" cy="315" r="5.5" fill="#a594ff"/>
+  <circle cx="126" cy="170" r="7"   fill="#7c6aff" filter="url(#glow)"/>
+
+  <!-- Center node -->
+  <circle cx="250" cy="205" r="16" fill="#7c6aff" fill-opacity="0.3"/>
+  <circle cx="250" cy="205" r="10" fill="#7c6aff"/>
+  <circle cx="250" cy="205" r="4"  fill="white" fill-opacity="0.92"/>
+
+  <!-- ── Text ── -->
+  <!-- "DOTSTELL" -->
+  <text x="250" y="378"
+        text-anchor="middle"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,sans-serif"
+        font-size="50" font-weight="700" letter-spacing="7"
+        fill="white">DOTSTELL</text>
+
+  <!-- "LABS" accent -->
+  <text x="250" y="425"
+        text-anchor="middle"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,sans-serif"
+        font-size="26" font-weight="300" letter-spacing="18"
+        fill="#7c6aff">LABS</text>
+</svg>
