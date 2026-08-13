@@ -37,9 +37,9 @@
   <circle cx="210" cy="300" r="5"   fill="#a594ff"/>
   <circle cx="166" cy="161" r="6.5" fill="#7c6aff"/>
 
-  <!-- Center hub -->
+  <!-- Center hub: bloom + solid purple body + white dot (matches favicon) -->
   <circle cx="290" cy="200" r="48" fill="url(#bloom)"/>
-  <circle cx="290" cy="200" r="14" fill="#130e3a" stroke="#9888ff" stroke-width="5"/>
+  <circle cx="290" cy="200" r="14" fill="#7c6aff"/>
   <circle cx="290" cy="200" r="5"  fill="white" fill-opacity="0.92"/>
 
   <!-- ── Divider ── -->

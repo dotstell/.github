@@ -37,19 +37,19 @@
   <circle cx="164" cy="325" r="6"   fill="#a594ff"/>
   <circle cx="117" cy="172" r="8"   fill="#7c6aff"/>
 
-  <!-- Center hub -->
+  <!-- Center hub: bloom + solid purple body + white dot (matches favicon) -->
   <circle cx="250" cy="205" r="55" fill="url(#bloom)"/>
-  <circle cx="250" cy="205" r="17" fill="#130e3a" stroke="#9888ff" stroke-width="6"/>
+  <circle cx="250" cy="205" r="17" fill="#7c6aff"/>
   <circle cx="250" cy="205" r="6"  fill="white" fill-opacity="0.92"/>
 
-  <!-- ── Text ── -->
+  <!-- ── Text: dotstell Labs (lowercase d, capital L only) ── -->
   <text x="250" y="390"
         text-anchor="middle"
         font-family="system-ui,-apple-system,BlinkMacSystemFont,sans-serif"
-        font-size="52" font-weight="700" letter-spacing="6" fill="#eeeef8">DOTSTELL</text>
+        font-size="52" font-weight="700" letter-spacing="3" fill="#eeeef8">dotstell</text>
 
   <text x="250" y="438"
         text-anchor="middle"
         font-family="system-ui,-apple-system,BlinkMacSystemFont,sans-serif"
-        font-size="26" font-weight="700" letter-spacing="16" fill="rgba(180,165,255,0.88)">LABS</text>
+        font-size="26" font-weight="700" letter-spacing="14" fill="rgba(180,165,255,0.88)">Labs</text>
 </svg>
