@@ -1,12 +1,15 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/dotstell/dotstell/main/public/logo-full.svg" alt="Dotstell" width="320" />
+<img src="https://raw.githubusercontent.com/dotstell/dotstell/main/public/logo-full.svg" alt="Dotstell" width="280" />
 
 <br/>
+<br/>
 
-### Every dot tells a story.
+# Dotstell Labs
 
-**Dotstell Labs builds open source tools that give individuals and teams clarity — over their knowledge, their code, and their security.**
+**Open source tools for connected thinking and application security.**
+
+*We build the tools that used to require a six-figure enterprise contract.*
 
 <br/>
 
@@ -22,13 +25,17 @@
 
 ## About Dotstell Labs
 
-Dotstell Labs is an independent open source lab building tools that used to be locked behind enterprise pricing.
+Dotstell Labs is an independent open source software lab founded in Japan, focused on building tools that put enterprise-grade capabilities in the hands of every developer and team — for free.
 
-**Mission:** Make powerful tools accessible to every developer, team, and company — not just those who can afford six-figure licenses.
+**The problem we solve:** The best tools for knowledge management, application security, and developer productivity are locked behind expensive SaaS pricing or opaque enterprise contracts. Small teams and individual developers are left with fragmented, underpowered alternatives — not because better tools cannot exist, but because no one has built them openly.
 
-**Vision:** A world where individuals have the same clarity over their thinking and security posture that Fortune 500 teams do today.
+**What we believe:**
+- Open source is the right foundation for developer tooling — transparent, auditable, and community-owned
+- Self-hostability is a right, not a premium feature
+- The best security tools should not cost more than a junior developer salary
+- Building in public builds trust
 
-**How we work:** Everything we build is open source first. The code is public, the roadmap is public, and the community shapes what gets built. We build in public, ship early, and iterate with users.
+**How we work:** Every product ships as open source under AGPL-3.0. The code is public, the roadmap is public, and the community helps shape what gets built. We run a hosted SaaS tier to sustain development — but the core is always free, forever.
 
 ---
 
@@ -44,7 +51,7 @@ A single place to write notes, track people, manage tasks, save bookmarks, and c
 |---|---|
 | 📑 Connected Notes | Rich text editor with `[[wikilinks]]` and automatic backlinks |
 | ⬡ Knowledge Graph | Visual map that builds itself as you write |
-| 👥 People & 1-on-1s | Track contacts with notes, tasks, and context |
+| 👥 People & 1-on-1s | Track contacts with notes, tasks, and full context |
 | 🔖 Smart Bookmarks | Save URLs — title, description and favicon auto-fetched |
 | ✅ Tasks & Priorities | Kanban + list view with due dates and overdue alerts |
 | 🔍 Universal Search | Ctrl+K across all notes, people, tasks and bookmarks |
@@ -56,19 +63,19 @@ A single place to write notes, track people, manage tasks, save bookmarks, and c
 
 ---
 
-### [Dotstell Radar](https://github.com/dotstell/dotstell-radar) — Application Security Posture Management
+### Dotstell Radar — Application Security Posture Management *(coming soon)*
 
-The OSS alternative to Snyk, Veracode, and Wiz. Radar connects to your GitHub and GitLab organizations, aggregates findings from GHAS, Dependabot, secret scanning, SAST scanners, and SARIF uploads — then computes a **posture score** per repository and organization.
+The open source alternative to Snyk, Veracode, and Wiz. Radar connects to your GitHub and GitLab organizations, aggregates findings from GHAS, Dependabot, secret scanning, SAST scanners, and SARIF uploads — then computes a posture score per repository and organization so you know exactly where your exposure is.
 
-Enterprise ASPM tools cost $30k–$200k per year and are opaque black boxes. Radar is free, self-hosted, and open source.
+Enterprise ASPM tools cost $30k–$200k per year. Radar is free, self-hosted, and AGPL-3.0.
 
 | Feature | |
 |---|---|
-| 🔗 Source connectors | GitHub (GHAS, Dependabot, secret scanning) · GitLab · SARIF upload |
+| 🔗 Source connectors | GitHub (GHAS, Dependabot, secrets) · GitLab · SARIF upload |
 | 📊 Posture scoring | 0–100 score per repo and org, severity-weighted, age-adjusted |
-| 🧠 Knowledge graph | Repos → findings → CVEs → ATT&CK TTPs → compliance controls |
+| 🧠 Knowledge graph | Repos → findings → CVEs → MITRE ATT&CK TTPs → compliance |
 | 📋 Compliance mapping | SOC 2 · ISO 27001 · NIST CSF · CIS Controls |
-| 🐳 Self-hosted | Single `docker compose up` — no external dependencies |
+| 🐳 Self-hosted | `docker compose up` — single command, no external dependencies |
 
 **Stack:** `FastAPI` · `Python 3.11` · `Next.js 15` · `PostgreSQL` · `Redis` · `Docker Compose`
 
@@ -81,8 +88,8 @@ Enterprise ASPM tools cost $30k–$200k per year and are opaque black boxes. Rad
 | Repo | Description | Status |
 |---|---|---|
 | [dotstell/dotstell](https://github.com/dotstell/dotstell) | Personal knowledge graph app | ✅ Live |
-| dotstell/dotstell-radar | OSS ASPM platform | 🔒 Private — coming soon |
-| [dotstell/dotstell.com](https://github.com/dotstell/dotstell.com) | Marketing & landing page | ✅ Live |
+| dotstell/dotstell-radar | OSS ASPM platform | 🔒 In development |
+| dotstell/dotstell.com | Marketing & landing page | 🔒 Private |
 
 ---
 
@@ -96,22 +103,17 @@ cp .env.local.example .env.local   # add Supabase keys
 pnpm dev                           # http://localhost:3000
 ```
 
-**Dotstell Radar:**
-```bash
-git clone https://github.com/dotstell/dotstell-radar.git
-cd dotstell-radar && cp .env.example .env
-docker compose up                  # http://localhost:3100
-```
+Or use the hosted version at **[dotstell.app](https://dotstell.app)** — free to start, no credit card required.
 
 ---
 
 ## Contributing
 
-All contributions are welcome across both products — bug fixes, new scanner sources, UI improvements, compliance mappings, and documentation.
+Contributions are welcome across all products — bug fixes, new features, UI improvements, documentation, and tests.
 
-- **Bug reports & features** → [open an issue](https://github.com/dotstell/dotstell/issues) on the relevant repo
-- **Code contributions** → open an issue first for significant changes
-- **Docs, design, tests** → always welcome without prior discussion
+- **Bug reports & feature requests** → [open an issue](https://github.com/dotstell/dotstell/issues) on the relevant repo
+- **Code contributions** → open an issue first for anything significant
+- **Docs, design, accessibility** → always welcome without prior discussion
 
 ---
 
@@ -119,6 +121,6 @@ All contributions are welcome across both products — bug fixes, new scanner so
 
 **[dotstell.com](https://dotstell.com)** · **[dotstell.app](https://dotstell.app)** · **[hello@dotstell.com](mailto:hello@dotstell.com)**
 
-<sub>© 2026 Dotstell Labs · All projects AGPL-3.0</sub>
+<sub>© 2026 Dotstell Labs · Built in public · All products AGPL-3.0</sub>
 
 </div>
