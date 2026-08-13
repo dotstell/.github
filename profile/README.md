@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/dotstell/.github/main/profile/banner.svg" alt="Dotstell Labs" width="100%" />
+<img src="https://raw.githubusercontent.com/dotstell/.github/main/profile/banner.svg" alt="dotstell Labs" width="100%" />
 
 <br/>
 <br/>
@@ -19,29 +19,31 @@
 
 **A lab connecting the dots for curious minds and ambitious builders.**
 
-Every domain of work has the same problem: the information is there. The insight is not. Notes, people, tasks, code, vulnerabilities, decisions — they exist in separate silos, each one present and each one blind to the others. The picture you need does not live in any single tool. It lives in the connections between them.
+Every domain of human work has the same structural problem: the information is there, the insight is not. Notes, people, tasks, code, vulnerabilities, decisions — they exist in separate systems, each one present and each one blind to the others. The picture you need does not live in any single tool. It lives in the connections between them.
 
 dotstell Labs builds the connectors.
 
-Each product we ship takes a specific set of scattered dots — knowledge, security posture, whatever comes next — and connects them until they tell a story. The product names change. The mission stays the same: make visible what was always there, invisible only because it was disconnected.
+Each product we ship takes a specific domain where information sits in isolated silos — and connects it until the pattern becomes visible. The dots are different in every domain. The thesis is the same.
 
 **What we stand for:**
 - Open source is the foundation, not a marketing position — transparent, auditable, community-owned
-- Self-hostability is a right, not a premium feature
+- Self-hostability is a right, not a premium tier
 - The best tools should not require a six-figure enterprise contract
 - Building in public builds trust — roadmap, code, and decisions are all visible
 
-**How we work:** Every product ships under AGPL-3.0. The core is always free, forever. A hosted SaaS tier sustains the work.
+Every product ships under AGPL-3.0. The core is always free, forever.
 
 ---
 
 ## Products
 
-### [Dotstell](https://dotstell.app) — Personal Knowledge Graph
+### [dotstell](https://dotstell.app) — Personal Knowledge Graph
 
-One place for everything you know. Write notes, track people, manage tasks, save bookmarks, and watch it all connect through a living visual graph. Most tools are built around capture. Dotstell is built around **connection**.
+**The dots:** notes, people, tasks, bookmarks, decisions — scattered across your working memory and a dozen different apps.
 
-> *"Your knowledge is not lost. It is just not connected yet."*
+**What they tell:** the full context of any problem, person, or project — the story no single note could tell on its own.
+
+One place for everything you know. Write in rich text, connect everything with `[[wikilinks]]`, watch the knowledge graph build itself as you work. Most productivity tools are built around capture. dotstell is built around **connection**.
 
 | | Feature |
 |---|---|
@@ -53,29 +55,27 @@ One place for everything you know. Write notes, track people, manage tasks, save
 | 🔍 | Universal Search — Ctrl+K across notes, people, tasks and bookmarks |
 | 🖥️ | Desktop app — native Windows + macOS via Tauri (~10 MB) |
 
-**Stack:** `Next.js 16` · `React 19` · `TypeScript` · `Tailwind CSS v4` · `Supabase` · `Tiptap v3` · `React Flow` · `Tauri v2`
-
 → **[dotstell.app](https://dotstell.app)** · [Source](https://github.com/dotstell/dotstell) · AGPL-3.0
 
 ---
 
-### Dotstell Radar — Application Security Posture Management *(in development)*
+### [dotstell Radar](https://github.com/dotstell/dotstell-radar) — Application Security Posture Management *(in development)*
 
-The open source alternative to Snyk, Veracode, and Wiz. Most engineering teams have no affordable way to answer: *"What is our actual security posture across all our code?"* Enterprise ASPM tools cost $30k–$200k per year and are opaque black boxes. Radar is free, self-hosted, and built in the open.
+**The dots:** security findings, repositories, CVEs, MITRE ATT&CK TTPs, compliance controls — scattered across GHAS, Dependabot, secret scanning, and a dozen other tools.
 
-Connect your GitHub or GitLab organization and Radar aggregates findings from GHAS, Dependabot, secret scanning, SAST scanners, and SARIF uploads — then computes a **posture score** per repository so you know exactly where your exposure is.
+**What they tell:** your real security posture — the exposure you did not know you had because it was never in one place.
+
+Most engineering teams have no affordable way to answer: *"What is our actual security exposure across all our code?"* Enterprise ASPM tools cost $30k–$200k per year and are opaque black boxes. Radar is free, self-hosted, and built in the open.
 
 | | Feature |
 |---|---|
-| 🔗 | Source connectors — GitHub GHAS · Dependabot · GitLab SAST · SARIF upload |
+| 🔗 | Source connectors — GitHub GHAS · Dependabot · secret scanning · SARIF upload |
 | 📊 | Posture scoring — 0–100 per repo and org, severity-weighted, age-adjusted |
-| 🧠 | Knowledge graph — repos → findings → CVEs → MITRE ATT&CK TTPs → compliance |
+| 🧠 | Finding graph — repos → CVEs → MITRE ATT&CK TTPs → compliance controls |
 | 📋 | Compliance mapping — SOC 2 · ISO 27001 · NIST CSF · CIS Controls |
 | 🐳 | Self-hosted — `docker compose up`, single command, no external dependencies |
 
-**Stack:** `FastAPI` · `Python 3.11` · `Next.js 15` · `PostgreSQL` · `Redis` · `Docker Compose`
-
-→ **radar.dotstell.app** *(coming soon)* · AGPL-3.0
+→ **[dotstell/dotstell-radar](https://github.com/dotstell/dotstell-radar)** · AGPL-3.0
 
 ---
 
@@ -85,39 +85,42 @@ Connect your GitHub or GitLab organization and Radar aggregates findings from GH
 |---|---|---|
 | [dotstell/dotstell](https://github.com/dotstell/dotstell) | Personal knowledge graph app | ✅ Live |
 | [dotstell/dotstell-radar](https://github.com/dotstell/dotstell-radar) | OSS ASPM platform | 🚧 In development |
-| dotstell/dotstell.com | Marketing & landing page | 🔒 Private |
+| dotstell/dotstell.com | Marketing & ecosystem landing page | 🔒 Private |
 
 ---
 
 ## The name
 
-**"dots"** — individual points of information. A note. A finding. A person. A repository. A task. Left alone, they are just dots — present but meaningless without context.
+**"dots"** — any isolated unit of meaning, in any domain. A piece of information that exists and has value, but cannot explain itself in isolation. Dots are everywhere: in every field of work, in every system, in every organization. Present, real, and waiting. But a dot alone cannot tell you anything.
 
-**"tell"** — to reveal, to narrate, to give meaning. When you connect the dots, they tell you something. The pattern that emerges is the story you could not see before.
+**"tell"** — what happens when dots connect. The pattern surfaces. The story becomes visible. Not because new information was created, but because existing information was finally *related* — to context, to consequence, to other information. The insight was always latent. Connection makes it seen.
 
-**dotstell = connecting dots until they tell a story.**
+**dotstell** = the act of connecting isolated information until it reveals what could not be seen while everything was apart.
+
+This is not a product description. It is the permanent thesis of dotstell Labs. Every product is a specific application of this thesis to a specific domain. The domains change. The thesis does not.
 
 ## The logo
 
-The logo is not decoration. It is a complete argument in six nodes.
+The logo is not decoration. It is the thesis made visual — a complete argument in six elements.
 
 Read it outside to inside:
 
-**Five dots. Scattered. Isolated.** Each one a silo — a note, a person, a codebase, a finding, a task. Valuable on its own. But not talking to anything else.
+**Five dots. Scattered. Isolated.** Each one a domain of information sitting alone — present, real, cut off from the others. This is the default state of almost every system ever built: information exists; connection does not.
 
-Then a platform reaches out — dashed lines forming, connections not yet complete but already moving.
+**Then the dashed lines begin reaching inward.** The platform arrives — connections forming, not yet complete, but already in motion.
 
-And at the center, once the connections close: **a white dot appears.**
+**At the center, once the connections close: a white dot appears.**
 
-That white dot did not exist before. It could not exist before. It is the insight that only emerges when silos become a system. The thing you could not see. Now you cannot unsee it.
+That white dot did not exist before. It could not exist before. It is the insight that only emerges when isolated things become a connected system. The thing you could not see. Now you cannot unsee it.
 
-That white dot is what dotstell Labs builds toward. Every product — the knowledge graph, the security posture platform, whatever comes next — exists to produce that white dot. To make visible what was always there, invisible only because it was disconnected.
+That white dot is what dotstell Labs builds toward — in every product, in every domain. To make visible what was always there, invisible only because it was disconnected.
 
 **The geometry:**
-- 5 perimeter nodes at 72° intervals — equal weight, no hierarchy
-- 1 center hub — the connector, the reason dotstell exists
-- Gradient perimeter edges — connections are directional but not one-sided
-- Dashed spokes at 30% opacity — potential, not yet realised
+- 5 perimeter nodes at 72° intervals — equal weight, no hierarchy, each a different kind of silo
+- 1 center hub — the connector; equidistant from every silo, between them not above them
+- Solid perimeter edges — connections already formed, opacity 0.6; present but not dominant
+- Dashed spokes — connections still forming; potential, not yet permanent
+- White dot at center — the emergent insight; what only exists once everything connects
 
 The same mark appears across every dotstell product. The constellation does not change — only the name beside it does.
 
@@ -126,7 +129,7 @@ The same mark appears across every dotstell product. The constellation does not 
 ## Get started
 
 ```bash
-# Dotstell app
+# dotstell knowledge graph app
 git clone https://github.com/dotstell/dotstell.git
 cd dotstell && pnpm install
 cp .env.local.example .env.local   # add Supabase keys
@@ -135,13 +138,22 @@ pnpm dev                           # http://localhost:3000
 
 Or use the hosted version at **[dotstell.app](https://dotstell.app)** — free to start, no credit card required.
 
+```bash
+# dotstell Radar (ASPM)
+git clone https://github.com/dotstell/dotstell-radar.git
+cd dotstell-radar
+cp .env.example .env               # add GitHub OAuth credentials
+docker compose -f docker-compose.yml -f docker-compose.dev.yml up
+# Dashboard: http://localhost:3100  API docs: http://localhost:8100/docs
+```
+
 ---
 
 ## Contributing
 
 All contributions are welcome — bug fixes, new features, UI improvements, documentation, and tests.
 
-- **Bug reports & features** → [open an issue](https://github.com/dotstell/dotstell/issues) on the relevant repo
+- **Bug reports & features** → open an issue on the relevant repo
 - **Code contributions** → open an issue first for anything significant
 - **Docs, design, accessibility** → always welcome without prior discussion
 
@@ -151,6 +163,6 @@ All contributions are welcome — bug fixes, new features, UI improvements, docu
 
 **[dotstell.com](https://dotstell.com)** · **[dotstell.app](https://dotstell.app)** · **[hello@dotstell.com](mailto:hello@dotstell.com)**
 
-<sub>© 2026 Dotstell Labs · A lab connecting the dots · AGPL-3.0</sub>
+<sub>© 2026 dotstell Labs · connecting dots until they tell a story · AGPL-3.0</sub>
 
 </div>
