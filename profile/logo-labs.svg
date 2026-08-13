@@ -40,7 +40,7 @@
   <!-- Center hub: bloom + solid purple body + white dot (matches favicon) -->
   <circle cx="250" cy="205" r="55" fill="url(#bloom)"/>
   <circle cx="250" cy="205" r="17" fill="#7c6aff"/>
-  <circle cx="250" cy="205" r="6"  fill="white" fill-opacity="0.92"/>
+  <circle cx="250" cy="205" r="8"  fill="white" fill-opacity="0.92"/>
 
   <!-- ── Text: dotstell Labs (lowercase d, capital L only) ── -->
   <text x="250" y="390"
