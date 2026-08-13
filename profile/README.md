@@ -15,23 +15,23 @@
 
 ---
 
-## About Dotstell Labs
+## About dotstell Labs
 
-**Your knowledge is scattered. Your security posture is invisible. Dotstell Labs connects both.**
+**A lab connecting the dots for curious minds and ambitious builders.**
 
-We are an independent open source software lab — building the tools that used to require a six-figure enterprise contract and putting them in the hands of every developer, team, and company, for free.
+Every domain of work has the same problem: the information is there. The insight is not. Notes, people, tasks, code, vulnerabilities, decisions — they exist in separate silos, each one present and each one blind to the others. The picture you need does not live in any single tool. It lives in the connections between them.
 
-We believe the best tools do not just store information — **they connect it**. The notes you take, the tasks you create, the people you work with, the code you ship, and the security risks you carry should not live in isolated silos.
+dotstell Labs builds the connectors.
 
-**Our mission:** Connect the dots between how you think and how you build — safely.
+Each product we ship takes a specific set of scattered dots — knowledge, security posture, whatever comes next — and connects them until they tell a story. The product names change. The mission stays the same: make visible what was always there, invisible only because it was disconnected.
 
 **What we stand for:**
-- Open source is the right foundation for developer tooling — transparent, auditable, and community-owned
+- Open source is the foundation, not a marketing position — transparent, auditable, community-owned
 - Self-hostability is a right, not a premium feature
-- The best security tools should not cost more than a junior developer's salary
-- Building in public builds trust
+- The best tools should not require a six-figure enterprise contract
+- Building in public builds trust — roadmap, code, and decisions are all visible
 
-**How we work:** Every product ships under AGPL-3.0. The code is public, the roadmap is public, and the community shapes what gets built. We run a hosted SaaS tier to sustain development — the core is always free, forever.
+**How we work:** Every product ships under AGPL-3.0. The core is always free, forever. A hosted SaaS tier sustains the work.
 
 ---
 
@@ -84,7 +84,7 @@ Connect your GitHub or GitLab organization and Radar aggregates findings from GH
 | Repo | Description | Status |
 |---|---|---|
 | [dotstell/dotstell](https://github.com/dotstell/dotstell) | Personal knowledge graph app | ✅ Live |
-| dotstell/dotstell-radar | OSS ASPM platform | 🔒 In development |
+| [dotstell/dotstell-radar](https://github.com/dotstell/dotstell-radar) | OSS ASPM platform | 🚧 In development |
 | dotstell/dotstell.com | Marketing & landing page | 🔒 Private |
 
 ---
