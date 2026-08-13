@@ -89,6 +89,24 @@ Connect your GitHub or GitLab organization and Radar aggregates findings from GH
 
 ---
 
+## The logo
+
+The dotstell Labs mark is a **pentagon constellation** — five nodes connected on the perimeter, all feeding into a single glowing center hub.
+
+It is not decorative. It is the idea made literal.
+
+Knowledge, people, code, tasks, and security findings are the five points. The center hub is the connection that makes them meaningful. The dashed spokes represent the invisible threads — the relationships you have not discovered yet. The white dot at the core is the moment of clarity when a connection finally forms.
+
+**The geometry:**
+- 5 perimeter nodes at 72° intervals — equal weight, no hierarchy
+- 1 center hub — the connector, the reason Dotstell exists
+- Gradient perimeter edges fade at the endpoints — connections are directional but not one-sided
+- Dashed spokes at 30% opacity — potential, not yet realised
+
+The same mark appears across every Dotstell product. The constellation does not change — only the name beside it does.
+
+---
+
 ## Get started
 
 ```bash
