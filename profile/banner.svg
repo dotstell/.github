@@ -13,8 +13,8 @@
   <!-- Background -->
   <rect width="1200" height="400" rx="14" fill="url(#bg)"/>
 
-  <!-- ── Constellation  center:(290,200)  pentRadius:130  ──
-       A(290, 70)  B(414,161)  C(370,300)  D(210,300)  E(166,161)  -->
+  <!-- ── Constellation  center:(290,200)  pentRadius:130 ──
+       A(290,70)  B(414,161)  C(370,300)  D(210,300)  E(166,161)  -->
 
   <!-- Perimeter lines -->
   <line x1="290" y1="70"  x2="414" y2="161" stroke="#7c6aff" stroke-width="1.6" stroke-opacity="0.6"/>
@@ -23,14 +23,14 @@
   <line x1="210" y1="300" x2="166" y2="161" stroke="#7c6aff" stroke-width="1.6" stroke-opacity="0.6"/>
   <line x1="166" y1="161" x2="290" y2="70"  stroke="#7c6aff" stroke-width="1.6" stroke-opacity="0.6"/>
 
-  <!-- Spokes from center (dashed) -->
-  <line x1="290" y1="200" x2="290" y2="70"  stroke="#7c6aff" stroke-width="1"   stroke-opacity="0.3" stroke-dasharray="8 6"/>
-  <line x1="290" y1="200" x2="414" y2="161" stroke="#7c6aff" stroke-width="1"   stroke-opacity="0.3" stroke-dasharray="8 6"/>
-  <line x1="290" y1="200" x2="370" y2="300" stroke="#7c6aff" stroke-width="1"   stroke-opacity="0.3" stroke-dasharray="8 6"/>
-  <line x1="290" y1="200" x2="210" y2="300" stroke="#7c6aff" stroke-width="1"   stroke-opacity="0.3" stroke-dasharray="8 6"/>
-  <line x1="290" y1="200" x2="166" y2="161" stroke="#7c6aff" stroke-width="1"   stroke-opacity="0.3" stroke-dasharray="8 6"/>
+  <!-- Spokes from center — 2 dashes per spoke, not more -->
+  <line x1="290" y1="200" x2="290" y2="70"  stroke="#7c6aff" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="22 16"/>
+  <line x1="290" y1="200" x2="414" y2="161" stroke="#7c6aff" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="22 16"/>
+  <line x1="290" y1="200" x2="370" y2="300" stroke="#7c6aff" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="22 16"/>
+  <line x1="290" y1="200" x2="210" y2="300" stroke="#7c6aff" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="22 16"/>
+  <line x1="290" y1="200" x2="166" y2="161" stroke="#7c6aff" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="22 16"/>
 
-  <!-- Vertex dots (alternating size/shade) -->
+  <!-- Vertex dots -->
   <circle cx="290" cy="70"  r="6.5" fill="#7c6aff"/>
   <circle cx="414" cy="161" r="5"   fill="#a594ff"/>
   <circle cx="370" cy="300" r="6.5" fill="#7c6aff"/>
@@ -45,38 +45,21 @@
   <!-- ── Divider ── -->
   <line x1="590" y1="55" x2="590" y2="345" stroke="#7c6aff" stroke-width="0.5" stroke-opacity="0.15"/>
 
-  <!-- ── Right: Text ── -->
-  <text x="640" y="153"
+  <!-- ── Right: Text only — no product badges ── -->
+  <text x="640" y="168"
         font-family="system-ui,-apple-system,BlinkMacSystemFont,sans-serif"
         font-size="60" font-weight="700" letter-spacing="-1" fill="white">Dotstell Labs</text>
 
-  <line x1="640" y1="170" x2="1110" y2="170" stroke="#7c6aff" stroke-width="1.2" stroke-opacity="0.3"/>
+  <line x1="640" y1="185" x2="1110" y2="185" stroke="#7c6aff" stroke-width="1.2" stroke-opacity="0.3"/>
 
-  <text x="642" y="210"
+  <text x="642" y="228"
         font-family="system-ui,-apple-system,BlinkMacSystemFont,sans-serif"
-        font-size="19" font-weight="400" fill="#a594ff">A lab connecting the dots</text>
-  <text x="642" y="236"
+        font-size="20" font-weight="400" fill="#a594ff">A lab connecting the dots</text>
+  <text x="642" y="256"
         font-family="system-ui,-apple-system,BlinkMacSystemFont,sans-serif"
-        font-size="19" font-weight="400" fill="#a594ff">for curious minds and ambitious builders.</text>
+        font-size="20" font-weight="400" fill="#a594ff">for curious minds and ambitious builders.</text>
 
-  <!-- Product badges -->
-  <rect x="642" y="264" width="148" height="34" rx="7"
-        fill="#7c6aff" fill-opacity="0.12" stroke="#7c6aff" stroke-width="0.8" stroke-opacity="0.4"/>
-  <circle cx="664" cy="281" r="5" fill="#7c6aff" fill-opacity="0.7"/>
-  <circle cx="664" cy="281" r="2" fill="white" fill-opacity="0.85"/>
-  <text x="678" y="286"
+  <text x="642" y="340"
         font-family="system-ui,-apple-system,sans-serif"
-        font-size="13" fill="#c8bfff" font-weight="500">Dotstell</text>
-
-  <rect x="804" y="264" width="178" height="34" rx="7"
-        fill="#7c6aff" fill-opacity="0.12" stroke="#7c6aff" stroke-width="0.8" stroke-opacity="0.4"/>
-  <circle cx="826" cy="281" r="5" fill="#7c6aff" fill-opacity="0.7"/>
-  <circle cx="826" cy="281" r="2" fill="white" fill-opacity="0.85"/>
-  <text x="840" y="286"
-        font-family="system-ui,-apple-system,sans-serif"
-        font-size="13" fill="#c8bfff" font-weight="500">Dotstell Radar</text>
-
-  <text x="642" y="336"
-        font-family="system-ui,-apple-system,sans-serif"
-        font-size="12" fill="#44445a" letter-spacing="0.4">Built in public · AGPL-3.0 · Japan</text>
+        font-size="13" fill="#44445a" letter-spacing="0.5">dotstell.com · hello@dotstell.com · Built in public · AGPL-3.0</text>
 </svg>
