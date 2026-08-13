@@ -72,7 +72,7 @@ Enterprise ASPM tools cost $30k–$200k per year and are opaque black boxes. Rad
 
 **Stack:** `FastAPI` · `Python 3.11` · `Next.js 15` · `PostgreSQL` · `Redis` · `Docker Compose`
 
-→ **[radar.dotstell.app](https://radar.dotstell.app)** *(coming soon)* · [Source](https://github.com/dotstell/dotstell-radar) · AGPL-3.0
+→ **radar.dotstell.app** *(coming soon)* · AGPL-3.0
 
 ---
 
@@ -81,7 +81,7 @@ Enterprise ASPM tools cost $30k–$200k per year and are opaque black boxes. Rad
 | Repo | Description | Status |
 |---|---|---|
 | [dotstell/dotstell](https://github.com/dotstell/dotstell) | Personal knowledge graph app | ✅ Live |
-| [dotstell/dotstell-radar](https://github.com/dotstell/dotstell-radar) | OSS ASPM platform | 🚧 Building |
+| dotstell/dotstell-radar | OSS ASPM platform | 🔒 Private — coming soon |
 | [dotstell/dotstell.com](https://github.com/dotstell/dotstell.com) | Marketing & landing page | ✅ Live |
 
 ---
