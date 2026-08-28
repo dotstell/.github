@@ -43,7 +43,7 @@ Every product ships under AGPL-3.0. The core is always free, forever.
 
 **What they tell:** the full context of any problem, person, or project — the story no single note could tell on its own.
 
-One place for everything you know. Write in rich text, connect everything with `[[wikilinks]]`, watch the knowledge graph build itself as you work. **Capture** your ideas and research. **Connect** them to people, tasks, and bookmarks. **Ask** an AI that answers from your own knowledge base — not the internet.
+Everything you write, everyone you know, everything you do — all linked in one living knowledge graph. Now with AI that understands all of it.
 
 | | Feature |
 |---|---|
