@@ -45,16 +45,20 @@ Every product ships under AGPL-3.0. The core is always free, forever.
 
 Everything you write, everyone you know, everything you do — all linked in one living knowledge graph. Now with AI that understands all of it.
 
-| | Feature |
-|---|---|
-| 📑 | Connected Notes — rich text with `[[wikilinks]]` and automatic backlinks |
-| ⬡ | Knowledge Graph — visual map that builds itself as you write |
-| 👥 | People & 1-on-1s — contacts with attached notes, tasks, and full context |
-| 🔖 | Smart Bookmarks — title, description and favicon auto-fetched |
-| ✅ | Tasks & Priorities — Kanban + list view, due dates, overdue alerts |
-| 🔍 | Universal Search — Ctrl+K across notes, people, tasks and bookmarks |
-| ✨ | AI layer — RAG chat, AI Writing Assistant, semantic search, Related, Person Intelligence, Digest — works with Ollama (local), OpenAI, Anthropic, Gemini, or Groq |
-| 🖥️ | Desktop app — native Windows, macOS, and Linux via Tauri (~10 MB) |
+| | Feature | Description |
+|---|---|---|
+| 📑 | **Rich Text Notes** | Write in rich text with slash commands, tables, code blocks and checklists |
+| ⬡ | **Wikilinks & Backlinks** | Type `[[` in any note to link it to another — backlinks update automatically |
+| 📓 | **Notebooks** | Organise notes into named collections with colour-coded sidebar grouping |
+| 👥 | **People & 1-on-1s** | Track contacts, attach notes, tasks and context directly to people — supports `@mention` in notes |
+| 🔖 | **Smart Bookmarks** | Save any URL — title, description and favicon fetched automatically; bulk import from Chrome, Firefox or Safari |
+| ✅ | **Tasks & Priorities** | Kanban board + list view with priorities, due dates and overdue alerts |
+| 🌐 | **Knowledge Graph** | Visual map of everything — wikilinks and manual connections appear as live edges |
+| 🔍 | **Universal Search** | Ctrl+K command palette across all notes, people, tasks and bookmarks |
+| 🔗 | **Manual Linking** | Connect any entity to any other — note → person, bookmark → task, etc. |
+| 🏠 | **Dashboard** | Unified home screen: overdue alerts, task progress, recent notes and bookmarks |
+| ✨ | **AI — Chat, Write, Assist & Search** | RAG-grounded chat (notes, bookmarks, and tasks all in context), AI Writing Assistant, inline text assist, smart titles, auto-tagging, note summaries, AI Digest, Person Intelligence, semantic Related — works with Ollama (local/private), OpenAI, Anthropic, Gemini, or Groq |
+| 🖥️ | **Desktop app** | Native Windows, macOS, and Linux via Tauri (~10 MB) |
 
 → **[dotstell.app](https://dotstell.app)** · [Source](https://github.com/dotstell/dotstell) · AGPL-3.0
 
