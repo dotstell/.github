@@ -43,7 +43,7 @@ Every product ships under AGPL-3.0. The core is always free, forever.
 
 **What they tell:** the full context of any problem, person, or project — the story no single note could tell on its own.
 
-One place for everything you know. Write in rich text, connect everything with `[[wikilinks]]`, watch the knowledge graph build itself as you work. Most productivity tools are built around capture. dotstell is built around **connection**.
+One place for everything you know. Write in rich text, connect everything with `[[wikilinks]]`, watch the knowledge graph build itself as you work. **Capture** your ideas and research. **Connect** them to people, tasks, and bookmarks. **Ask** an AI that answers from your own knowledge base — not the internet.
 
 | | Feature |
 |---|---|
@@ -53,7 +53,8 @@ One place for everything you know. Write in rich text, connect everything with `
 | 🔖 | Smart Bookmarks — title, description and favicon auto-fetched |
 | ✅ | Tasks & Priorities — Kanban + list view, due dates, overdue alerts |
 | 🔍 | Universal Search — Ctrl+K across notes, people, tasks and bookmarks |
-| 🖥️ | Desktop app — native Windows + macOS via Tauri (~10 MB) |
+| ✨ | AI layer — RAG chat, AI Writing Assistant, semantic search, Related, Person Intelligence, Digest — works with Ollama (local), OpenAI, Anthropic, Gemini, or Groq |
+| 🖥️ | Desktop app — native Windows, macOS, and Linux via Tauri (~10 MB) |
 
 → **[dotstell.app](https://dotstell.app)** · [Source](https://github.com/dotstell/dotstell) · AGPL-3.0
 
