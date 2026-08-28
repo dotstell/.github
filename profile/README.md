@@ -39,9 +39,11 @@ Every product ships under AGPL-3.0. The core is always free, forever.
 
 ### [dotstell](https://dotstell.app) — Personal Knowledge Graph
 
-**The dots:** notes, people, tasks, bookmarks, decisions — scattered across your working memory and a dozen different apps.
+**The dots:** Ideas, research, meeting notes, 1-on-1s, and everything worth remembering — scattered across your working memory and a dozen different apps.
 
-**What they tell:** the full context of any problem, person, or project — the story no single note could tell on its own.
+**What they tell:** Capture it all, connect ideas, notes, people, tasks, and bookmarks, then ask AI that answers from your own knowledge and context.
+
+**Capture → Connect → Ask**
 
 Everything you write, everyone you know, everything you do — all linked in one living knowledge graph. Now with AI that understands all of it.
 
