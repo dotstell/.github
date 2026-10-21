@@ -7,6 +7,8 @@
 
 [![Website](https://img.shields.io/badge/dotstell.com-7c6aff?style=flat-square&logo=google-chrome&logoColor=white)](https://dotstell.com)
 [![App](https://img.shields.io/badge/dotstell.app-5b4de0?style=flat-square&logo=google-chrome&logoColor=white)](https://dotstell.app)
+[![Release](https://img.shields.io/github/v/release/dotstell/dotstell?style=flat-square&color=10b981&label=release)](https://github.com/dotstell/dotstell/releases/latest)
+[![MCP Registry](https://img.shields.io/badge/MCP%20Registry-com.dotstell%2Fdotstell-5b4de0?style=flat-square)](https://registry.modelcontextprotocol.io)
 [![License](https://img.shields.io/badge/AGPL--3.0-10b981?style=flat-square)](https://github.com/dotstell/dotstell/blob/main/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-a594ff?style=flat-square)](https://github.com/dotstell/dotstell/blob/main/CONTRIBUTING.md)
 [![Contact](https://img.shields.io/badge/hello%40dotstell.com-333?style=flat-square&logo=gmail&logoColor=white)](mailto:hello@dotstell.com)
@@ -45,24 +47,47 @@ Every product ships under AGPL-3.0. The core is always free, forever.
 
 **Capture → Connect → Ask**
 
-Everything you write, everyone you know, everything you do — all linked in one living knowledge graph. Now with AI that understands all of it.
+Everything you write, everyone you know, everything you do — all linked in one living knowledge graph. Now with AI that understands all of it, meetings you can talk into, and a way to let your own AI tools read it.
+
+**Capture**
 
 | | Feature | Description |
 |---|---|---|
-| 📑 | **Rich Text Notes** | Write in rich text with slash commands, tables, code blocks and checklists |
-| ⬡ | **Wikilinks & Backlinks** | Type `[[` in any note to link it to another — backlinks update automatically |
-| 📓 | **Notebooks** | Organise notes into named collections with colour-coded sidebar grouping |
-| 👥 | **People & 1-on-1s** | Track contacts, attach notes, tasks and context directly to people — supports `@mention` in notes |
-| 🔖 | **Smart Bookmarks** | Save any URL — title, description and favicon fetched automatically; bulk import from Chrome, Firefox or Safari |
-| ✅ | **Tasks & Priorities** | Kanban board + list view with priorities, due dates and overdue alerts |
-| 🌐 | **Knowledge Graph** | Visual map of everything — wikilinks and manual connections appear as live edges |
-| 🔍 | **Universal Search** | Ctrl+K command palette across all notes, people, tasks and bookmarks |
-| 🔗 | **Manual Linking** | Connect any entity to any other — note → person, bookmark → task, etc. |
-| 🏠 | **Dashboard** | Unified home screen: overdue alerts, task progress, recent notes and bookmarks |
-| ✨ | **AI — Chat, Write, Assist & Search** | RAG-grounded chat (notes, bookmarks, and tasks all in context), AI Writing Assistant, inline text assist, smart titles, auto-tagging, note summaries, AI Digest, Person Intelligence, semantic Related — works with Ollama (local/private), OpenAI, Anthropic, Gemini, or Groq |
-| 🖥️ | **Desktop app** | Native Windows, macOS, and Linux via Tauri (~10 MB) |
+| 📑 | **Rich Text Notes** | Slash commands, tables, code blocks, checklists, images, table of contents and PDF export; sub-notes, tabs and colour labels |
+| 📓 | **Notebooks** | Named, colour-coded collections; deleted notes stay in the Trash for 30 days |
+| 🎙️ | **Meetings** | Paste or upload a Zoom, Teams or Meet transcript (or record the meeting) and get a summary, decisions, action items and open questions; action items become linked tasks |
+| 🗣️ | **Voice dictation** | Speak into any note in 12 languages — *Fast* in your browser with spoken punctuation and automatic capitals, or *High accuracy* with Whisper-class models and your own key; works on a phone |
+| 🔖 | **Smart Bookmarks** | Title, description and favicon fetched automatically; bulk import from Chrome, Firefox or Safari |
+| ✅ | **Tasks & Priorities** | Kanban board and list view with priorities, due dates and times, reminders and overdue alerts |
+| 👥 | **People & 1-on-1s** | Contacts with notes, tasks and context attached; `@mention` them in notes |
 
-→ **[dotstell.app](https://dotstell.app)** · [Source](https://github.com/dotstell/dotstell) · AGPL-3.0
+**Connect**
+
+| | Feature | Description |
+|---|---|---|
+| ⬡ | **Wikilinks & Backlinks** | Type `[[` to link notes; backlinks and unlinked mentions update automatically |
+| 🌐 | **Knowledge Graph** | A live map of everything, with AI-found missing links and clusters |
+| 🔍 | **Universal Search** | Ctrl+K across notes, people, tasks and bookmarks, plus search by meaning |
+| 🏠 | **Dashboard** | Overdue alerts, task progress, recent items, knowledge health and an AI digest |
+
+**Ask**
+
+| | Feature | Description |
+|---|---|---|
+| ✨ | **AI Chat, Write & Assist** | Chat grounded in your notes, bookmarks and tasks; drafting and rewriting; smart titles, tags and summaries; Person Intelligence. Works with **Ollama (local and private, including Qwen 3.5 and Gemma 4)**, OpenAI, Anthropic, Gemini or Groq |
+| 🔌 | **MCP server** | Let Codex, Claude Code, Cursor and Claude Desktop search and read your knowledge with a revocable, read-only token. Listed in the [official MCP Registry](https://registry.modelcontextprotocol.io) as `com.dotstell/dotstell` (search “dotstell”) |
+
+**Yours to keep**
+
+| | Feature | Description |
+|---|---|---|
+| 📤 | **Export & Import** | One-click zip of Markdown, CSV and a full backup; bring in Obsidian, Notion, Evernote, Google Keep and contacts, with preview and undo |
+| 🖥️ | **Everywhere** | Web, a ~10 MB desktop app for Windows, macOS and Linux, and phones and tablets; 12 themes |
+| 🏠 | **Self-hostable** | Your own Supabase project and any Node.js host — [step-by-step guide](https://github.com/dotstell/dotstell/blob/main/docs/DEPLOYMENT.md) |
+
+**What's new** — [v0.9.2](https://github.com/dotstell/dotstell/releases/tag/v0.9.2) local AI that works with reasoning models · [v0.9.1](https://github.com/dotstell/dotstell/releases/tag/v0.9.1) high-accuracy dictation, spoken punctuation, phone-friendly dictation · [v0.9.0](https://github.com/dotstell/dotstell/releases/tag/v0.9.0) MCP server · [v0.8.0](https://github.com/dotstell/dotstell/releases/tag/v0.8.0) meetings · [v0.7.0](https://github.com/dotstell/dotstell/releases/tag/v0.7.0) import & export. Full history in the [changelog](https://github.com/dotstell/dotstell/blob/main/CHANGELOG.md).
+
+→ **[dotstell.app](https://dotstell.app)** · [Website](https://dotstell.com) · [Source](https://github.com/dotstell/dotstell) · AGPL-3.0
 
 ---
 
@@ -138,12 +163,13 @@ The same mark appears across every dotstell product. The constellation does not 
 ```bash
 # dotstell knowledge graph app
 git clone https://github.com/dotstell/dotstell.git
-cd dotstell && pnpm install
-cp .env.local.example .env.local   # add Supabase keys
+cd dotstell && pnpm install               # Node.js 20.9+
+cp .env.local.example .env.local   # add your Supabase URL and anon key
+                                   # run supabase/schema.sql in your Supabase project first
 pnpm dev                           # http://localhost:3000
 ```
 
-Or use the hosted version at **[dotstell.app](https://dotstell.app)** — free to start, no credit card required.
+Or use the hosted version at **[dotstell.app](https://dotstell.app)** — free to start, no credit card required. Hosting it yourself? Follow the [self-hosting guide](https://github.com/dotstell/dotstell/blob/main/docs/DEPLOYMENT.md).
 
 ```bash
 # dotstell Radar (ASPM)
